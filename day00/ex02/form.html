@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+    <style>
+        form {
+            width: 100px;
+        }
+    </style>
+    
+</head>
+
+<body>
+  <script src="popup.js"></script>
+<form>
+    <fieldset>
+      <legend><h1>Formulário</h1></legend>
+      <p>
+        <label for="primeiro_nome">Primeiro Nome</label>
+        <input type="text" name="firstname" id="firstname" />
+        
+      </p>
+      <p>
+        <label for="nome">Nome</label>
+        <input type="text" namebackground-color: #424242;="name" id="name" />
+        
+      </p>
+      <p>
+        <label for="idade">Idade</label>
+        <input type="number" name="age" id="age" />
+        
+      </p>
+      <label for="telefone">Telefone</label>
+        <input type="tel" id="phone" name="phone" />
+        
+        <label>E-mail</label>
+        <input type="email" name="email" id="email" />
+      </p>
+      <p>
+        <label>Estudante 42?</label>
+        <br>
+        <input type="checkbox" id="student" name="student" value="Sim">
+        <label for="sim">Sim</label><br>
+
+      </p>
+
+      <p>
+        <label>Sexo:</label>
+        <br>
+        <input type="radio" id="gender_male" name="Gender" value="Masculino">
+        <label for="Masculino">Masculino</label>
+        <br>
+        <input type="radio" id="gender_female" name="Gender" value="Feminino">
+        <label for="Feminino">Feminino</label>
+        <br>
+        <input type="radio" id="gender_other" name="Gender" value="Outro">
+        <label for="Outro">Outro</label>
+    
+      </p>
+    
+        
+      <button onclick="displayFormContents()">Enviar</button>
+     
+    </fieldset>
+  </form>
+</body>
+
+
+
+</html>

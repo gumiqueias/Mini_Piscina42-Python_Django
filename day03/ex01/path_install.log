@@ -1,0 +1,22 @@
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /tmp/pip-req-build-p6lmxqxb
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Building wheels for collected packages: path
+  Building wheel for path (PEP 517): started
+  Building wheel for path (PEP 517): finished with status 'done'
+  Created wheel for path: filename=path-16.7.2.dev6+gd66385c-py3-none-any.whl size=24828 sha256=3a66eec8cdf21386fde3bf325b6d30486f993ee31bc3540cc140a6226dc19cc9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-990p70m8/wheels/f4/b1/e8/0c2581fc68c581f8838df32b71e05a09629ef0ac8500bff509
+Successfully built path
+Installing collected packages: path
+  Attempting uninstall: path
+    Found existing installation: path 16.7.2.dev6+gd66385c
+    Uninstalling path-16.7.2.dev6+gd66385c:
+      Successfully uninstalled path-16.7.2.dev6+gd66385c
+Successfully installed path-16.7.2.dev6+gd66385c

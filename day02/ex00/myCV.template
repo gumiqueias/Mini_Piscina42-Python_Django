@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My CV</title>
+  </head>
+  <body>
+    <p>"-Who are you? -A {name}!"</p>
+    <p>"-Surname of the resume’s owner? - {surname}"</p>
+    <p>"-Age? - {age} Year's"</p>
+    <p>"-Profession? - {profession}"</p>
+  </body>
+</html>
